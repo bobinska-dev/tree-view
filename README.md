@@ -5,7 +5,7 @@ Important Information and explanations are commented into the code as well 💡�
 
 ## Clone and Test
 
-Test the studio by cloning the repo and installing the dependencies, by running `sanity install` and `yarn install`. The dummy studio is public and you should be able to then locally run it.
+Test the studio by cloning the repo and installing the dependencies, by running `sanity install` and `yarn install`. The dummy dataset is public and you should be able to then locally run it.
 
 ## Step 1 – Pagereferences
 
