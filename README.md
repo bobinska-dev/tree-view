@@ -1,10 +1,29 @@
-# Sanity Movies Content Studio
+# Tree View Desk Structure for pages
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This is a working version of your briefing ☺️
+Important Information and explanations are commented into the code as well 💡👀 
 
-Now you can do the following things:
+## Step 1 – Pagereferences
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out one of the example frontends: [React](https://github.com/sanity-io/example-frontend-next-js) | [React Native](https://github.com/sanity-io/example-app-react-native) | [Vue](https://github.com/sanity-io/example-frontend-vue-js) | [PHP](https://github.com/sanity-io/example-frontend-silex-twig)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+Make sure, your `page` schema has a reference field to `page`
+[see schemas/page.js](https://github.com/bobinska-dev/tree-view/tree/master/schemas)
+
+## Step 2 – Desk Structure
+
+Since structure builder files can get a bit wild, I tend to split the code. This means, that in this example the base of my desk structure is at `./desk/index.js`. Nesting of the `desk` files: `index` -> `pages` -> `subpages`
+[see desk folder](https://github.com/bobinska-dev/tree-view/tree/master/desk)
+
+## Step 3 – Initial Value Templates
+
+The different Templates are stored here and used in `pages` and `subpages`. (nothing changed here, I just copied it from Peter and your slack conversation)
+[see component folder](https://github.com/bobinska-dev/tree-view/blob/master/components/initialValueTemplates.js)
+
+____
+
+Unfortunately the page doc is not displayed by default, but I think that this is actually better:
+
+* Editors can see the panes better especially once they reached pane 4
+
+* The usage of Icons makes clear, if we have reached a collection of sub-pages, or the page itself.
+
+Please do not hesitate to contact me. I am happy to assist you in the implementation 😇
