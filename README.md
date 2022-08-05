@@ -3,6 +3,10 @@
 This is a working version of your briefing ☺️
 Important Information and explanations are commented into the code as well 💡👀 
 
+## Clone and Test
+
+Test the studio by cloning the repo and installing the dependencies, by running `sanity install` and `yarn install`. The dummy studio is public and you should be able to then locally run it.
+
 ## Step 1 – Pagereferences
 
 Make sure, your `page` schema has a reference field to `page`
